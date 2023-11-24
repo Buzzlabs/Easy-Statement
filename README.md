@@ -33,7 +33,7 @@ Contributions are welcome! If you identify improvements or fixes, feel free to s
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE). See the LICENSE file for more details.
+This project is licensed under the [Zero Clause BSD License](LICENSE). See the LICENSE file for more details.
 
 ---
 
