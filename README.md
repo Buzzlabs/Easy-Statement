@@ -1,6 +1,6 @@
 # Easy Statement - Conta Aberta Chrome Extension
 
-![Logo](icons/logo-conta-aberta-branco.png)
+![Logo](icons/favicon.png)
 
 ## Description
 
