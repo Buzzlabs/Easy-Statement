@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Conta Aberta</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+        <img src="icons/logo-conta-aberta-branco.png"/>
+        <a href="./instructions.html">Instruções</a>
+    </header>
+    <main>
+      <p>Temos o prazer de apresentar a nossa nova extensão para o Itaú! Esta ferramenta foi desenvolvida especialmente para facilitar a sua vida ao extrair dados do seu extrato bancário para o Conta aberta.</p>
+      <p>É sua primeira vez utilizando nossa extensão? De uma olhada no passo a passo de <a href="./instructions.html">como transferir seus dados para o conta aberta.</a></p>
+      
+      <form>
+        <div class="input-id">
+          <div class="label-id">
+            <span>@</span>
+          </div>
+          <select name="projectid" id="projectid">
+            <option value="">Selecione um projeto</option>
+          </select>
+        </div>
+        <button type="submit" id="submit-button">Enviar</button>
+      </form>
+      <div class="list-projects">
+        <button class="update-projects" type="button" id="update-projects">Atualizar lista de projetos</button>
+        <span class="loader" id="loader"></span>
+      </div>
+      <div id="feedback"></div>
+    </main>
+    <footer>
+      <span>todos os direitos reservados BuzzLabs</span>
+    </footer>
+    <script src="script.js"></script>
+    <script src="projects.js"></script>
+  </body>
+</html>

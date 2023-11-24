@@ -1,0 +1,21 @@
+{
+    "name": "Conta Aberta",
+    "description": "Conta Aberta Extension",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": ["storage", 
+                    "scripting", 
+                    "activeTab", 
+                    "tabs",
+                    "cookies",
+                    "webRequest",
+                  "webNavigation"],
+    "action": {
+      "default_popup": "index.html",
+      "default_icon": "icons/disabled-38.png"
+    },
+    "background": {
+      "service_worker": "background.js"
+    },
+    "host_permissions": ["<all_urls>"]
+  }
