@@ -1,6 +1,8 @@
 # Easy Statement - Conta Aberta Chrome Extension
 
-![Logo](icons/favicon.png)
+<a href="https://contaaberta.info">
+<img src="icons/favicon.png" alt="Logo" style="width:150px;"/>
+</a>
 
 ## Description
 
@@ -23,7 +25,7 @@ The "Easy Statement - Conta Aberta" project streamlines the process of obtaining
 
 4. Access your Itaú statement page and click the extension icon.
 
-5. Your parsed data is available on contaaberta.info for easy viewing.
+5. Your parsed data is available on [contaaberta.info](https://contaaberta.info) for easy viewing.
 
 ## Contributions
 
